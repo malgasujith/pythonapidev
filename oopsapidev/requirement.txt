@@ -1,7 +1,7 @@
-pydantic
-fastapi
-uvicorn
-psycopg2-binary
-bcrypt
-regex
-pyjwt
+pydantic==1.10.5
+fastapi==0.98.0
+uvicorn==0.22.0
+psycopg2-binary==2.9.6
+bcrypt==4.0.1
+regex==2023.5.5
+pyjwt==2.6.0
