@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        bat(script: 'python3 your_script.py', returnStatus: true, returnStdout: true, label: 'python')
+        bat(script: 'python3 app.py', returnStatus: true, returnStdout: true, label: 'python')
       }
     }
 
