@@ -8,10 +8,10 @@ from jwttoken import Jwttoken
 from authentication import Auth_token
 
 
-host = "buzz1.ctc8eosquvzt.eu-north-1.rds.amazonaws.com"
-dbname = "buzz"
+host = "spring2.ctc8eosquvzt.eu-north-1.rds.amazonaws.com"
+dbname = "edwin"
 user = "postgres"
-password = "postgres"
+password = "sujith123"
 
 
 app = FastAPI()
